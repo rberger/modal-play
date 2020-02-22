@@ -1,0 +1,14 @@
+;; shadow-cljs configuration
+{:deps   true
+
+ :nrepl        {:port 9001}
+
+ :builds       {:app {:target     :browser
+                      :output-dir "public/js"
+                      :asset-path "/js"
+                      :modules    {:main {:entries [modal-play.core]}}
+                      :devtools   {:after-load modal-play.core/init
+                                   :http-root  "public"
+                                   :http-port  8080
+                                   :preloads   [devtools.preload]}
+                      :release    {:output-dir "dist/js"}}}}

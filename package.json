@@ -1,0 +1,22 @@
+{
+  "name": "modal-play",
+  "version": "1.0.0",
+  "description": "Experiments doing modal overlays in re-frame",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "./scripts/clean.sh",
+    "package": "./scripts/package.sh",
+    "release": "./scripts/release.sh"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "2.8.83"
+  },
+  "dependencies": {
+    "highlight.js": "9.15.10",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-highlight.js": "1.0.7"
+  }
+}
