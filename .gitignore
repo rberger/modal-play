@@ -1,9 +1,6 @@
 .lein*
-/resources/unpacked/compiled
-/resources/release.crx
-/resources/release.pem
-/resources/release/compiled
-/releases
+/public/js/compiled
+/dist
 /.idea
 /target
 /checkouts
@@ -14,6 +11,4 @@
 .shadow-cljs
 node_modules
 package-lock.json
-resources/unpacked/out
-resources/unpacked/manifest.json
 .cpcache

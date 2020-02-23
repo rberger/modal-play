@@ -1,12 +1,14 @@
 (ns modal-play.events
   (:require
-   [re-frame.core :as re-frame]))
+   [re-frame.core :as re-frame]
+   [day8.re-frame.tracing :refer-macros [fn-traced]]))
 
 (re-frame/reg-event-db
  :initialize-db
- {:modal {}})
+ (fn-traced [__]
+            {}))
 
 (re-frame/reg-event-db
-:modal
-(fn [db [_ data]]
-  (assoc-in db [:modal] data)))
+ :modal
+ (fn-traced [db [_ data]]
+            (assoc-in db [:modal] data)))

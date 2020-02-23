@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "Experiments doing modal overlays in re-frame",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "./scripts/clean.sh",
-    "package": "./scripts/package.sh",
-    "release": "./scripts/release.sh"
+    "watch": "shadow-cljs watch app",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Robert J. Berger",
   "license": "MIT",
   "devDependencies": {
     "shadow-cljs": "2.8.83"
