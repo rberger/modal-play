@@ -7,6 +7,9 @@ Experiments around modal overlays in re-frame based on
 > implementation is pure re-frame and css, free from jQuery and DOM manipulation
 > and can be used as a drop-in replacement for Bootstrap modals.
 
+You can use Bootstrap CSS to style the modal overlays. This repo shows using
+bootstrap for the overlay that is displayed (`modal-play.modal/hello-bootstrap`)
+
 ## Usage
 
 1. Clone repo to your local filesystem and `cd` into the repo
