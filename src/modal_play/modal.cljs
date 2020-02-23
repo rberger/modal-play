@@ -51,7 +51,6 @@
      [:h4 {:class "modal-title"} "Hello Bootstrap modal!"]
      [:button {:type "button" :title "Cancel"
                :class "close"
-               :aria-label "Close"
                :on-click #(close-modal)} "X"]]
     [:div {:class "modal-body"}
      [:div [:b (str "You can close me by clicking the Ok button"
