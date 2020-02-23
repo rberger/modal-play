@@ -7,6 +7,14 @@ Experiments around modal overlays in re-frame based on
 > implementation is pure re-frame and css, free from jQuery and DOM manipulation
 > and can be used as a drop-in replacement for Bootstrap modals.
 
+## Usage
+
+1. Clone repo to your local filesystem and `cd` into the repo
+2. `npm install` (only need to do first time)
+3. `shadow-cljs watch app`
+4. Open your browser to http://localhost:8080/
+5. Click on the `Open Modal` button and the modal box should show up
+
 ## License 
 
 MIT License
