@@ -14,7 +14,7 @@
     [:p "We got to have something"]
     [:button {:type "button" :title "Open Modal"
               :class "btn btn-primary"
-              :on-click #((re-frame/dispatch
-                           [:modal {:show? true :child [modal/hello-bootstrap]}
-                            ]))}"Open Modal"]]])
+              :on-click #(re-frame/dispatch
+                          [:modal {:show? true :child [modal/hello-bootstrap]}
+                           ])}"Open Modal"]]])
 
